@@ -1,0 +1,20 @@
+.game {
+    width: 50vw;
+    justify-self: center;
+    
+    .input-area {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        .lang-select {
+            max-width: 33vw;
+            width: 80%;
+        }
+        
+        button {
+            width: 70px;
+        }
+    }
+}
