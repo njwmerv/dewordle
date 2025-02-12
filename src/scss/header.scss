@@ -1,0 +1,34 @@
+@use './constants.scss';
+
+.navbar {
+    width: 100vw;
+    height: constants.$navbar-height;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .left {
+        gap: constants.$small-spacing;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: constants.$spacing;
+    }
+    
+    h1 {
+        margin: 0;
+        font-size: constants.$h1-size;
+    }
+    
+    .right {
+        gap: constants.$small-spacing;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: constants.$spacing;
+    }
+    
+    .MuiSvgIcon-root {
+        font-size: 2em;
+    }
+}

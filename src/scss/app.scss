@@ -1,0 +1,9 @@
+@use './constants.scss';
+
+$main-height: calc(100vh - constants.$navbar-height);
+
+main {
+    width: 100vw;
+    height: $main-height;
+    background-color: green;
+}

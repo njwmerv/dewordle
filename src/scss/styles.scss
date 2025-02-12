@@ -1,0 +1,12 @@
+@use './app.scss';
+@use './constants.scss';
+@use './header.scss';
+
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: constants.$default-font;
+}
